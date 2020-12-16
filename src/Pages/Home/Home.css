@@ -1,0 +1,39 @@
+.logoMainSection{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding:2rem 4rem ;
+}
+.logoMainSection>div{
+    padding: 4rem;
+}
+.logoMainSection>div>input{
+    padding: 2rem;
+    border: none;
+    outline: none;
+}
+.logoMainSection>div>button{
+    background-color: #fff;
+    border: none;
+}
+.logoMainSection>div>img{
+    width: 50%;
+}
+.socialMediaLink{
+    background-color: #222222;
+    padding: 0.8rem 0.9rem;
+    margin: 0.2rem;
+    color: #fff;
+    transition: background-color 0.3s, color 0.3s;
+}
+.socialMediaLink:hover{
+    background-color: #d8b89d;
+    color: #222222;
+
+}
+.mainProductScreen{
+    display: flex;
+    justify-content: center;
+    /* align-items: flex-start; */
+    flex-wrap: wrap;
+}

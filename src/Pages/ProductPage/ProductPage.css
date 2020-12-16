@@ -1,0 +1,36 @@
+.tempBtn{
+    padding: 10px 15px;
+    border: 1px solid grey;
+    border-radius: 20px;
+    background-color: #fff;
+    margin: 10px;
+}
+.tempBtn:hover{
+    background-color: #2c4152;
+    color: #fff;
+    border-color:  #2c4152;
+}
+.cartBtn{
+    margin-top: 100px;
+    background-color: #d5a249;
+    border: none;
+    color: #fff;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    outline: none;
+}
+.wishlistBtn{
+    margin-top: 1rem;
+    background-color: #fff;
+    border: 2px solid #d5a249;
+    color: #d5a249;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    outline: none;
+}
+.wishlistBtn:hover{
+    background-color: #d5a249;
+    color: #fff;
+}

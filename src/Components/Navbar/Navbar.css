@@ -1,0 +1,44 @@
+.navbar{
+    background-color: #eddbcb;
+    justify-content: center;
+}
+.navbar a{
+    padding-top: 1.4rem;
+    padding-bottom: 1.4rem;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    text-decoration: none;
+    color: #222222;
+}
+.navbar button{
+    background-color: #eddbcb;
+    border: none;
+    outline: none;
+    display: none;
+}
+.lineStyle{
+    justify-content: center;
+    bottom: 1rem !important;
+}
+@media only screen and (max-width:768px){
+    .navbar{
+        flex-direction: column;
+        /* height: 0vh; */
+        justify-content: flex-start;
+    }
+    .navbar a{
+        /* height: 100vh; */
+        /* transform: scaleY(0); */
+    }
+    .lineStyle{
+        display: none;
+    }
+    .navbar button{
+        display: block;
+        padding: 1rem;
+    }
+    .navbar.active{
+
+    }
+    
+}

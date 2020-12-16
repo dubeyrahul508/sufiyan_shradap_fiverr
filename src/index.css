@@ -1,13 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+html{
+  font-size: 13px;
+}
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: Montserrat, sans-serif;
+  margin: 0px;
+  font-weight: 500;
+  letter-spacing: 0.1rem;
+}
+.m-auto{
+  margin: auto;
+}
+.my-auto{
+  margin-top: auto;
+  margin-bottom: auto;
+}
+.mx-auto{
+  margin-left: auto;
+  margin-right: auto;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.d-flex{
+  display: flex;
+}
+.d-none{
+  display: none;
+}
+.d-inline{
+  display: inline;
+}
+.d-inline-block{
+  display: inline-block;
+}
+.text-center{
+  text-align: center;
+}
+.text-left{
+  text-align: left;
+}
+.text-right{
+  text-align: right;
+}
+.align-items-center{
+  align-items: center;
+}
+.justify-content-center{
+  justify-content: center;
+}
+.justify-content-around{
+  justify-content: space-around;
+}
+.justify-content-end{
+  justify-content: end;
+}
+input::-webkit-input-placeholder {/* Chrome/Opera/Safari/Edge */
+	letter-spacing: 0.1rem;
+}
+
+input::-ms-input-placeholder { /* Microsoft Edge */
+   letter-spacing: 0.1rem;
+}
+
+input:-ms-input-placeholder {/* IE 10+ */
+	letter-spacing: 0.1rem;
+}
+
+input::-moz-placeholder {/* Firefox 19+ */
+	opacity: 1; /*Firefox by default has an opacity object that usually is ideal to reset so it matches webkit*/
+	letter-spacing: 0.1rem;
+}
+
+input:-moz-placeholder {/* Firefox 18- */
+	opacity: 1; /*Firefox by default has an opacity object that usually is ideal to reset so it matches webkit*/
+	letter-spacing: 0.1rem;
+}
+
+input::placeholder {
+	letter-spacing: 0.1rem;
 }
