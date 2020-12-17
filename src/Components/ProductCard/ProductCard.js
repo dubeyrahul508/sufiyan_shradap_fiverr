@@ -1,12 +1,14 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./ProductCard.css";
 
 function ProductCard(props) {
   return (
+    
     <div className="productCardMain">
       <div className="prodCard_img">
         <img src={props.prodCard_img} />
-        <div className="quickView"> QUICK VIEW </div>
+        <Link to="/product_page"><div className="quickView"> QUICK VIEW </div></Link>
       </div>
       <div>
         <p className="prodCompanyName ">{props.prodCompanyName}</p>
